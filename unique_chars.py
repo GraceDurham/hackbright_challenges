@@ -9,7 +9,7 @@ def hbhas_unique(word):
     # print len(word)
 
     return len(unique_char) == len(word)
-    #if length of set is equal to original word than return True bc words contain unique characters
+    #return True if length of set is equal to original word bc words contains unique characters. Return false if length is not equal to words bc does not contain unique characters
 
 print hbhas_unique("Moonday")
 
