@@ -1,7 +1,7 @@
-# Given a word, return True if that word contains only unique characters. Return False otherwise.
 
 
 def hbhas_unique(word):
+    """Returns True if that given word contains unique characters. Returns False if given word does not contain unique characters"""
 
     unique_char = set(word)
     #remove duplicates with set and save to variable
