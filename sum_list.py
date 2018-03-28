@@ -1,7 +1,7 @@
-# Compute the sum of a list of numbers.
 
 
 def sum_list(lst):
+    """Returns the number from summing all the numbers in a list"""
 
     sums = 0
 
