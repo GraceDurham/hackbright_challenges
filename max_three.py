@@ -29,6 +29,8 @@ def max_three(num1, num2, num3):
 
     elif num2 >= num1 and num2 >= num3:
         return num2
+        #Once else if evaluates true it will not execute the next block of code after it.
+        #If else if evaluates as False then it will go to the next block of code
 
 
     elif num3 >= num2 and num3 >= num1:
